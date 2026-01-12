@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+html {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color: #382d21;
+}
 @media screen and (max-width: 440px) {
 	.card {
 		background-color: #f4cb5f;
@@ -9,12 +12,10 @@
 		box-shadow: 5px 5px #382d21;
 	}
 	.studym {
-		font-family: "Plus Jakarta Sans", sans-serif;
-		color: #382d21;
 		background-color: #f4cb5f;
 		border-radius: 9999px;
 		width: max-content;
-		padding: 25px;
+		padding: 12px;
 		border: solid #382d21 3px;
 		font-size: 15px;
 	}
@@ -32,17 +33,15 @@
 		padding-top: 1px;
 	}
 	.allcards {
-		font-family: "Plus Jakarta Sans", sans-serif;
-		color: #382d21;
 		width: max-content;
-		padding: 25px;
+		padding: 12px;
 		font-size: 15px;
 	}
 	header {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		gap: 50px;
+		gap: 107px;
 		padding-bottom: 50px;
 	}
 	.flashcard1 {
@@ -58,19 +57,15 @@
 		padding-right: 12px;
 		border-radius: 9999px;
 		font-size: 15px;
-		font-family: "Plus Jakarta Sans", sans-serif;
 		border: solid #382d21 3px;
 		background-color: white;
-		color: #382d21;
 		gap: 25px;
 	}
 	.checkbox {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		font-family: "Plus Jakarta Sans", sans-serif;
 		outline-color: #382d21;
-		color: #382d21;
 		gap: 9px;
 	}
 	.inp {
@@ -86,13 +81,59 @@
 		padding-right: 38px;
 		border-radius: 9999px;
 		font-size: 15px;
-		font-family: "Plus Jakarta Sans", sans-serif;
 		border: solid #382d21 3px;
 		background-color: white;
-		color: #382d21;
 		gap: 25px;
 	}
-    hr {
-        border: solid #382d21 1px;
+	hr {
+		border: solid #382d21 1px;
+	}
+	.pinkfunky {
+		border: solid #382d21 3px;
+		margin: 25px;
+		border-radius: 12px;
+		background-color: #fd8ae5;
+        box-shadow: 5px 5px #382d21;
+	}
+	.weby {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: max-content;
+		padding: 22px;
+		border-radius: 9999px;
+		font-size: 15px;
+		border: solid #382d21 3px;
+		background-color: white;
+		font-weight: bold;
+	}
+	.htmly {
+		font-size: 35px;
+		font-weight: bolder;
+        width: max-content;
+	}
+	.emptyy {
+		width: 30%;
+        padding: 5px;
+		border-radius: 9999px;
+		border: solid #382d21 3px;
+		background-color: white;
+	}
+    .progressbarr {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding-bottom: 50px;
+    }
+    .pinkyweb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .iknow {
+        
     }
 }
